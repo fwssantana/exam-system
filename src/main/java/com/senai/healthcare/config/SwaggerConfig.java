@@ -25,7 +25,7 @@ public class SwaggerConfig extends WebMvcConfigurationSupport{
 				.build()
 				.apiInfo(metaData())
 				.tags(new Tag("Institution", "Methods for Institution"), 
-						new Tag("Exam", "Methods for Exams"));
+						new Tag("Exam", "Methods for Exams"), new Tag("User", "Methods for Users"));
 	}
 
 	private ApiInfo metaData() {
